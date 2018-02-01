@@ -23,7 +23,7 @@
 						<div class="form-group">
 						 <label for="pwd">Password:</label>
 						 <input type="password" class="form-control" id="pwd">
-						</div> 
+						</div>
 					  </fieldset>
 					</form>
 				</div>
