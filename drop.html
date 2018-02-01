@@ -6,10 +6,9 @@
 	<meta charset="utf-8">
 	<title>droppable demo</title>
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo sc_url_library('prj','css','main.css');?>" />
 	<script src="http://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script type="text/javascript" src="<?php echo sc_url_library('prj', 'jquery.ui.touch-punch', 'jquery.ui.touch-punch.min.js'); ?>"> </script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
 <style media="screen">
 .container-sended {
 float:left;
@@ -27,7 +26,7 @@ margin: 5px;
 
 .draggable {
 display: list-item;
-width: 40em; /* debe tener tamaño fija para que el clon tambien lo tenga*/
+width: 5em; /* debe tener tamaño fija para que el clon tambien lo tenga*/
 height: 100px;
 background: #ccc;
 border: 2px solid #000000;
